@@ -7,6 +7,9 @@
   top: 0;
   z-index: 2;
 }
+.header a {
+  color: white;
+}
 .header .header__top,
 .header .header__bottom {
   display: flex;

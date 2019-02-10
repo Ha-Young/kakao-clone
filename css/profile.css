@@ -1,3 +1,57 @@
 .header--transparent {
   background-color: transparent;
 }
+.profile .profile__header {
+  height: 70vh;
+  background-image: url("https://www.sketchappsources.com/resources/source-images-plus1/material-design-icon-patterns-1.png");
+  background-position: top center;
+  background-size: 130%;
+  width: 100%;
+  position: relative;
+  top: -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  z-index: -1;
+}
+.profile__header .profile__header-container {
+  text-align: center;
+  position: relative;
+  bottom: -50px;
+}
+.profile__header img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.profile__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+.profile__container input {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.profile__container .profile__actions {
+  display: flex;
+}
+.profile__container .profile__action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 13px;
+  cursor: pointer;
+}
+.profile__action-circle {
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-radius: 50%;
+  color: #523737;
+  margin-bottom: 10px;
+}
+.profile__action-title {
+  font-size: 14px;
+}
